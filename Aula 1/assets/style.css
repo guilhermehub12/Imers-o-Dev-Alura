@@ -1,0 +1,70 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 50vh;
+  max-height: 90vh;
+  background-image: url("https://i0.statig.com.br/bancodeimagens/6d/vq/xb/6dvqxbgk7oxn4e2s7bkulenlx.jpg");
+  background-color: #fff;
+  background-size: 216vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.container img{
+  background-color: #000;
+}
+
+.container-form{
+  padding-top: 5px;
+  background: #888888;
+  padding-bottom: 10px;
+  width: 35vh;
+  margin: 0 auto;
+  border-radius: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.container-form > form{
+  padding-top: 20px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.container-form .nome-form{
+  color: #000;
+  font-weight: bold;
+  min-height: 400px;
+}
+
+.container-form input[type=text], input[type=button]{
+  border-radius: 10px;
+  height: 30px;
+}
+
+.page-title {
+  font-weight: bold;
+  color: #ffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  font-weight: bold;
+  color: #ffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.github-logo {
+  width: 100px;
+  position: absolute;
+  top: 37em;
+  right: 39em;
+}

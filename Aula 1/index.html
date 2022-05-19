@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/assets/style.css">
+  <title>Imersão Dev Alura - Aula 01</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Calculadora de média</h1>
+    <p class="page-subtitle">
+      Descubra qual a sua média de nota de todas as provas!
+    </p>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+      class="page-logo" alt="">
+
+    <div class="container-form">
+      <form method="GET" action="#">
+        <label class="nome-form" for="materia">Nome da Matéria:</label>
+        <input type="text" name="materia" id="materia" placeholder="Digite aqui">
+
+        <label class="nome-form" for="Nota1">Nota do 1° bimestre:</label>
+        <input type="number" name="nota1" id="nota1" placeholder="Digite aqui">
+
+        <label class="nome-form" for="Nota2">Nota do 2° bimestre:</label>
+        <input type="number" name="nota2" id="nota2" placeholder="Digite aqui">
+
+        <label class="nome-form" for="Nota3">Nota do 3° bimestre:</label>
+        <input type="number" name="nota3" id="nota3" placeholder="Digite aqui">
+
+        <label class="nome-form" for="Nota4">Nota do 4° bimestre:</label>
+        <input type="number" name="nota4" id="nota4" placeholder="Digite aqui">
+
+        </form>
+
+        <form action="#" method="POST">
+          <label class="nome-form" for="media">Media</label>
+          <input disabled type="text" name="media" id="media">
+
+          <label class="nome-form" for="resultado">Resultado</label>
+          <input disabled type="text" name="resultado" id="resultado">
+        </form>
+
+        <form action="#" method="get">
+          <input type="button" value="Calcular" id="btnCalcular" name="btnCalcular" onclick="calcularMedia();">
+          <input type="button" value="Limpar" id="btnLimpar" name="btnLimpar" onclick="limparTudo();">
+        </form>
+    </div>
+
+  </div>
+  <a href="https://github.com/guilhermehub12" target="_blank">
+    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" alt="" class="github-logo">
+  </a>
+
+  <script src="/src/main.js"></script>
+</body>
+
+</html>
