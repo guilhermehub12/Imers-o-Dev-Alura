@@ -1,1 +1,2 @@
-# Imers-o-Dev-Alura
+# Imersao-Dev-Alura
+Imersão Dev Alura Projetos
